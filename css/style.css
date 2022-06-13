@@ -293,6 +293,12 @@ p {
 .brand-img a img {
 	width: 70px;
 }
+.brand-img .light-border {
+	border-color: #bbb;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 20px;
+}
 .brand-img a.brand-icon {
 	left: 13px;
 	right: auto;
