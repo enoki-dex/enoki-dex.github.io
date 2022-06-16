@@ -1,22 +1,22 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Enoki</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/aos.css">
-        <link rel="stylesheet" href="css/fontawesome.min.css">
-        <link rel="stylesheet" href="css/default.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
-    <body>
-        <!-- Preloader Start -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Enoki</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!-- Preloader Start -->
 <!--        <div id="preloader">-->
 <!--            <div class="loader3">-->
 <!--                <span></span>-->
@@ -25,369 +25,388 @@
 <!--        </div>-->
 
 
-
-
-        <!-- header area start -->
-        <div class="header-area">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="header-left">
-                            <div class="logo">
-                                <a href="index.html"><img src="img/logo.svg" alt=""></a>
-                            </div>
-                            <div class="header-left-btn header-left-btn-none">
-                                <a href="#"><img src="img/h-icon.svg" alt=""> Built for <span>#SUPERNOVA</span></a>
-                            </div>
-                        </div>
+<!-- header area start -->
+<div class="header-area">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="header-left">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logo.svg" alt=""></a>
                     </div>
-                    <div class="col-md-6">
-                        <div class="header-right">
-                            <div class="header-right-btn f-right d-none d-md-block">
+                    <div class="header-left-btn header-left-btn-none">
+                        <a href="#"><img src="img/h-icon.svg" alt=""> Built for <span>#SUPERNOVA</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="header-right">
+                    <div class="header-right-btn f-right d-none d-md-block">
+                        <a href="#" class="button-style">Launch app</a>
+                    </div>
+                    <div class="header-menu text-end">
+
+                        <ul id="menu">
+                            <li><a href="https://github.com/enoki-dex" target="_blank"><img src="img/h-icon-2.svg"
+                                                                                            alt="">github</a></li>
+                            <li><a href="#">docs</a></li>
+
+                            <div class="header-right-btn d-block d-md-none">
                                 <a href="#" class="button-style">Launch app</a>
                             </div>
-                            <div class="header-menu text-end">
-                                
-                                <ul id="menu">
-                                    <li><a href="#"><img src="img/h-icon-2.svg" alt="">github</a></li>
-                                    <li><a href="#">docs</a></li>
+                        </ul>
 
-                                    <div class="header-right-btn d-block d-md-none">
-                                        <a href="#" class="button-style">Launch app</a>
-                                    </div>
-                                </ul>
 
-                                
-                            </div>
-                        </div>
                     </div>
                 </div>
-                        <!-- hamburger menu -->
-                        <div class="hamburger-menu">
-                            <span class="line-top"></span>
-                            <span class="line-center"></span>
-                            <span class="line-bottom"></span>
-                    </div>
-                        <!-- Preloader End -->
             </div>
         </div>
-        <!-- header area end -->
+        <!-- hamburger menu -->
+        <div class="hamburger-menu">
+            <span class="line-top"></span>
+            <span class="line-center"></span>
+            <span class="line-bottom"></span>
+        </div>
+        <!-- Preloader End -->
+    </div>
+</div>
+<!-- header area end -->
 
-        <main>
-            <!-- hero area strat -->
-            <div class="hero-area fix">
-                <div class="container">
-                    <div class="row align-items-center">
+<script>
+  window.onload = () => {
+    const messages = [
+      'ME AND THE BOIS HATE TO WAIT.<br>WE SWAP IT FAST',
+      'QUEUES ARE<br>HUMANITY\'S WORST INVENTION',
+      'WHY WAIT?<br>YOU GOTTA SWAP SWAP SWAP',
+      'WE LIKE OUR SOIL FERTILE<br>AND OUR APPS FULLY SCALABLE',
+    ];
+    document.getElementById("hero-message").innerHTML = messages[Math.floor(messages.length * Math.random())];
+  }
+</script>
 
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="650">
-                            <div class="hero-text">
-                                <h2>Async and <br>
-                                    Scalable <span>DEX</span></h2>
-                                    <p><span>Swap, Earn</span> and be a <span>Market Maker</span>
-                                        on a completely async and scalable
-                                        decentralized trading protocol</p>
-                                        <a class="button-style" href="#">LAUNCH APP</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6" data-aos="fade-up" data-aos-duration="500">
-                            <div class="hero-img">
-                                <div class="hero-img-box-poopup">
-                                    <div class="her-top-box">
-                                        <div class="hero-top-text text-end">
-                                            <p>ME AND THE BOIS HATE TO WAIT <br>
-                                                WE SWAP IT FAST</p>
-                                        </div>
-                                        <div class="hero-top-img">
-                                            <img src="img/hero-border.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="hero-btn-imggg hero-img">
-                                    <img src="img/hero.svg" alt="">
-                                    <div class="herobtn-button d-block d-md-none">
-                                        <a class="button-style" href="#">LAUNCH APP</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<main>
+    <!-- hero area strat -->
+    <div class="hero-area fix">
+        <div class="container">
+            <div class="row align-items-center">
 
-                        
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="650">
+                    <div class="hero-text">
+                        <h2>Async and <br>
+                            Scalable <span>DEX</span></h2>
+                        <p><span>Swap, Earn</span> and be a <span>Market Maker</span>
+                            on a completely async and scalable
+                            decentralized trading protocol</p>
+                        <a class="button-style" href="#">LAUNCH APP</a>
                     </div>
                 </div>
-            </div>
-            <!-- hero area end -->
-
-            <!-- brand area start -->
-            <div class="brand-area pt-180 pb-180 fix">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 col-5">
-                            <div class="brand-img" data-aos="fade-up" data-aos-duration="500">
-                                <img class="light-border" src="img/01.png" alt="">
-                                <a href="javascript:void(0);" style="cursor:auto;"><img src="img/i1.svg" alt=""></a>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="500">
+                    <div class="hero-img">
+                        <div class="hero-img-box-poopup">
+                            <div class="her-top-box">
+                                <div class="hero-top-text text-end">
+                                    <p id="hero-message">ME AND THE BOYS HATE TO WAIT.<br>
+                                        WE SWAP IT FAST.</p>
+                                </div>
+                                <div class="hero-top-img">
+                                    <img src="img/hero-border.png" alt="">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-7" data-aos="fade-up" data-aos-duration="650">
-                            <div class="brand-text">
-                                <h2>Swap Instantly</h2>
-                                <span>AT WEB 2.0 SPEEDS</span>
-                                <p>Our architecture of broker smart contracts
-                                    provide <span>~2 sec</span> swaps at the best-available
-                                    prices set by market makers.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row align-items-center margin-top-160">
-                        
-                        <div class="col-md-6 col-7">
-                            <div class="brand-text brand-text-2" data-aos="fade-up" data-aos-duration="650">
-                                <h2>Provide Liquidity</h2>
-                                <span>Without impermanent loss!</span>
-                                <p>The tokens you provide to a liquidity pool <br>
-                                    are traded at prices set and monitored <br>
-                                    by market makers. Earn fees and <span>avoid</span> <br>
-                                    <span>being burned</span> by price swings in the market.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-5">
-                            <div class="brand-img brand-img-2" data-aos="fade-up" data-aos-duration="500">
-                                <img class="light-border" src="img/02.png" alt="">
-                                <a href="javascript:void(0);" style="cursor:auto;" class="brand-icon"><img src="img/i2.svg" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row align-items-center margin-top-160">
-                        <div class="col-md-6 col-5" data-aos="fade-up" data-aos-duration="500">
-                            <div class="brand-img">
-                                <img class="light-border" src="img/03.png" alt="">
-                                <a href="javascript:void(0);" style="cursor:auto;"><img src="img/i3.svg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-7" data-aos="fade-up" data-aos-duration="650">
-                            <div class="brand-text brand-text-3">
-                                <h2>Make Markets</h2>
-                                <span>BE A PRO</span>
-                                <p>Earn even more fees by managing your
-                                    bid/ask spreads as a Maker Maker.
-                                    Build your own bot or <a href="#">fork ours.</a></p>
+                        <div class="hero-btn-imggg hero-img">
+                            <img src="img/hero.svg" alt="">
+                            <div class="herobtn-button d-block d-md-none">
+                                <a class="button-style" href="#">LAUNCH APP</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
-            <!-- brand area end -->
+        </div>
+    </div>
+    <!-- hero area end -->
 
-            <!-- user area start -->
-            <div class="user-area pt-160 pb-160">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12" data-aos="fade-up" data-aos-duration="500">
-                            <div class="section-title mb-95 text-center">
-                                <h3>More users? No sweat</h3>
-                                <p>Our sharded token standard <br> allows async, scalable transactions</p>
+    <!-- brand area start -->
+    <div class="brand-area pt-180 pb-180 fix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-5">
+                    <div class="brand-img" data-aos="fade-up" data-aos-duration="500">
+                        <img class="light-border" src="img/01.png" alt="">
+                        <a href="javascript:void(0);" style="cursor:auto;"><img src="img/i1.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-7" data-aos="fade-up" data-aos-duration="650">
+                    <div class="brand-text">
+                        <h2>Swap Instantly</h2>
+                        <span>AT WEB 2.0 SPEEDS</span>
+                        <p>Our architecture of broker smart contracts
+                            provide <span>~2 sec</span> swaps at the best-available
+                            prices set by market makers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center margin-top-160">
 
-                                <div class="user-list text-center mb-35 d-block d-md-none">
-                                    <p>MAXimum SIMULTANEOUS USERS <br> FOR <span>2 SEC
+                <div class="col-md-6 col-7">
+                    <div class="brand-text brand-text-2" data-aos="fade-up" data-aos-duration="650">
+                        <h2>Provide Liquidity</h2>
+                        <span>Without impermanent loss!</span>
+                        <p>The tokens you provide to a liquidity pool <br>
+                            are traded at prices set and monitored <br>
+                            by market makers. Earn fees and <span>avoid</span> <br>
+                            <span>being burned</span> by price swings in the market.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-5">
+                    <div class="brand-img brand-img-2" data-aos="fade-up" data-aos-duration="500">
+                        <img class="light-border" src="img/02.png" alt="">
+                        <a href="javascript:void(0);" style="cursor:auto;" class="brand-icon"><img src="img/i2.svg"
+                                                                                                   alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center margin-top-160">
+                <div class="col-md-6 col-5" data-aos="fade-up" data-aos-duration="500">
+                    <div class="brand-img">
+                        <img class="light-border" src="img/03.png" alt="">
+                        <a href="javascript:void(0);" style="cursor:auto;"><img src="img/i3.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-7" data-aos="fade-up" data-aos-duration="650">
+                    <div class="brand-text brand-text-3">
+                        <h2>Make Markets</h2>
+                        <span>BE A PRO</span>
+                        <p>Earn even more fees by managing your
+                            bid/ask spreads as a Maker Maker.
+                            Build your own bot or <a href="#">fork ours.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- brand area end -->
+
+    <!-- user area start -->
+    <div class="user-area pt-160 pb-160">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="500">
+                    <div class="section-title mb-95 text-center">
+                        <h3>More users? No sweat</h3>
+                        <p>Our sharded token standard <br> allows async, scalable transactions</p>
+
+                        <div class="user-list text-center mb-35 d-block d-md-none">
+                            <p>MAXimum SIMULTANEOUS USERS <br> FOR <span>2 SEC
                                         TRANSACTION</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-10 offset-xl-1">
-                            <div class="row">
-                                <div class="col-md-3 d-none d-md-block" data-aos="fade-up" data-aos-duration="650">
-                                    <div class="user-list mb-45">
-                                        <ul>
-                                            <li>MAXimum</li>
-                                            <li>SIMULTANEOUS</li>
-                                            <li>USERS FOR</li>
-                                            <li class="user-list-opacity">2 SEC <br>
-                                                TRANSACTION</li>
-                                        </ul>
-                                    </div>
-                                    <div class="user-list-2">
-                                        <ul>
-                                            <li>tested with bots</li>
-                                            <li>on mainnet using</li>
-                                            <li>DIP20 vs enoki</li>
-                                            <li>token standard</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-9" data-aos="fade-up" data-aos-duration="800">
-                                    <div class="user-img"><img src="img/04.png" alt=""></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-xl-8 offset-xl-2" data-aos="fade-up" data-aos-duration="950">
-                            <div class="user-content text-center pt-70">
-
-                                <div class="user-list-2 mb-60 d-block d-md-none">
-                                    <p>tested with bots on mainnet using DIP20 vs <br> enoki token standard</p>
-                                </div>
-
-                                <p>The Internet Computer allows for unlimited scaling, but each dApp needs its own async, parallelized scaling mechanism. Enoki seeks to bring that to DeFi on the Internet Computer. <a href="#">Check our Documentation.</a></p>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- user area end -->
-
-            <!-- work area start -->
-            <div class="work-area pt-180">
-                <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
                     <div class="row">
-                        <div class="col-12" data-aos="fade-up" data-aos-duration="500">
-                            <div class="section-title mb-80 text-center">
-                                <h2>How it works</h2>
+                        <div class="col-md-3 d-none d-md-block" data-aos="fade-up" data-aos-duration="650">
+                            <div class="user-list mb-45">
+                                <ul>
+                                    <li>MAXimum</li>
+                                    <li>SIMULTANEOUS</li>
+                                    <li>USERS FOR</li>
+                                    <li class="user-list-opacity">2 SEC <br>
+                                        TRANSACTION
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="user-list-2">
+                                <ul>
+                                    <li>tested with bots</li>
+                                    <li>on mainnet using</li>
+                                    <li>DIP20 vs enoki</li>
+                                    <li>token standard</li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="row work-border">
-                        <div class="col-md-6 d-none d-md-block" data-aos="fade-up" data-aos-duration="650">
-                            <div class="work-wrapper">
-                                <div class="work-text text-center mb-50">
-                                    <h4>Typical Exchange</h4>
-                                    <p>Queue up to swap</p>
-                                </div>
-                                <div class="work-img">
-                                    <img src="img/w1.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 d-none d-md-block" data-aos="fade-up" data-aos-duration="800">
-                            <div class="work-wrapper">
-                                <div class="work-text text-center mb-50">
-                                    <h4>Enoki Exchange</h4>
-                                    <p>Swap with your broker instantly</p>
-                                </div>
-                                <div class="work-img work-img-2">
-                                    <img src="img/w2.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="product-tab d-block d-md-none">
-                        <ul class="nav nav-tabs" data-aos="fade-up" data-aos-duration="650" id="myTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Typical Exchange</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Enoki Exchange</button>
-                            </li>
-                          </ul>
-                          <div class="tab-content" id="myTabContent" data-aos="fade-up" data-aos-duration="800">
-                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="home-tab-img text-center">
-                                    <p>Queue up to swap</p>
-                                    <img src="img/w1.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                <div class="home-tab-img text-center">
-                                    <p>Swap with your broker instantly</p>
-                                    <img src="img/w2.svg" alt="">
-                                </div>
-                            </div>
-                          </div>
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col-12" data-aos="fade-up" data-aos-duration="950">
-                            <div class="work-btn text-center pt-80">
-                                <a href="#" class="button-style">Launch app</a>
-                            </div>
+                        <div class="col-md-9" data-aos="fade-up" data-aos-duration="800">
+                            <div class="user-img"><img src="img/04.png" alt=""></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- work area end -->
 
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2" data-aos="fade-up" data-aos-duration="950">
+                    <div class="user-content text-center pt-70">
 
-            <!-- market area start -->
-            <div class="market-area pt-120">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="500">
-                            <div class="market-text">
-                                <h3>Market Makers <br>
-                                    Rewards!</h3>
-                                    <p>Our innovative reward mechanism
-                                        incentivizes good market making
-                                        and punishes bad market making.
-                                        Read more about that <a href="#">here.</a></p>
-                            </div>
+                        <div class="user-list-2 mb-60 d-block d-md-none">
+                            <p>tested with bots on mainnet using DIP20 vs <br> enoki token standard</p>
                         </div>
-                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="650">
-                            <div class="market-text">
-                                <h3>DAO <br>
-                                    Incoming!</h3>
-                                    <p>After the launch of the proposed
-                                        <a href="#">SNS,</a> Enoki will release a governance
-                                        token to transfer all control to a
-                                        decentralized community</a></p>
-                            </div>
-                        </div>
-                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="800">
-                            <div class="market-text">
-                                <h3>No Gas Fees! <br>
-                                    Period.</h3>
-                                    <p>Thanks to the Internet Computer’s
-                                        reverse gas model, Enoki pays for
-                                        all your trading needs.</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- market area end -->
-            
-        </main>
 
-        <!-- footer strat -->
-        <div class="footer-area pt-100">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="footer-copy">
-                            <p><img src="img/f-icon.svg" alt=""> &copy; Enoki DEX, 2022</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="footer-img text-center">
-                            <video autoplay loop muted>
-                                <source type="video/webm" src="img/hero-gif.mp4">
-                            </video>
-                            <!-- <img src="img/hero-gif.gif" alt=""> -->
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="footer-menu text-end">
-                            <ul>
-                                <li><a href="#">GitHub</a></li>
-                                <li><a href="#">Documentation</a></li>
-                            </ul>
-                        </div>
+                        <p>The Internet Computer allows for unlimited scaling, but each dApp needs its own async,
+                            parallelized scaling mechanism. Enoki seeks to bring that to DeFi on the Internet Computer.
+                            <a href="#">Check our Documentation.</a></p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- footer end -->
+    </div>
+    <!-- user area end -->
 
-        <!-- JS here -->
-        <script src="js/jquery-1.12.4.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/aos.js"></script>
-        <script src="js/fontawesome.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+    <!-- work area start -->
+    <div class="work-area pt-180">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="500">
+                    <div class="section-title mb-80 text-center">
+                        <h2>How it works</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row work-border">
+                <div class="col-md-6 d-none d-md-block" data-aos="fade-up" data-aos-duration="650">
+                    <div class="work-wrapper">
+                        <div class="work-text text-center mb-50">
+                            <h4>Typical Exchange</h4>
+                            <p>Queue up to swap</p>
+                        </div>
+                        <div class="work-img">
+                            <img src="img/w1.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block" data-aos="fade-up" data-aos-duration="800">
+                    <div class="work-wrapper">
+                        <div class="work-text text-center mb-50">
+                            <h4>Enoki Exchange</h4>
+                            <p>Swap with your broker instantly</p>
+                        </div>
+                        <div class="work-img work-img-2">
+                            <img src="img/w2.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-tab d-block d-md-none">
+                <ul class="nav nav-tabs" data-aos="fade-up" data-aos-duration="650" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                                type="button" role="tab" aria-controls="home" aria-selected="true">Typical Exchange
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                type="button" role="tab" aria-controls="profile" aria-selected="false">Enoki Exchange
+                        </button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent" data-aos="fade-up" data-aos-duration="800">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="home-tab-img text-center">
+                            <p>Queue up to swap</p>
+                            <img src="img/w1.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="home-tab-img text-center">
+                            <p>Swap with your broker instantly</p>
+                            <img src="img/w2.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="950">
+                    <div class="work-btn text-center pt-80">
+                        <a href="#" class="button-style">Launch app</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- work area end -->
+
+
+    <!-- market area start -->
+    <div class="market-area pt-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="500">
+                    <div class="market-text">
+                        <h3>Market Makers <br>
+                            Rewards!</h3>
+                        <p>Our innovative reward mechanism
+                            incentivizes good market making
+                            and punishes bad market making.
+                            Read more about that <a href="#">here.</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="650">
+                    <div class="market-text">
+                        <h3>DAO <br>
+                            Incoming!</h3>
+                        <p>After the launch of the proposed
+                            <a href="#">SNS,</a> Enoki will release a governance
+                            token to transfer all control to a
+                            decentralized community</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="800">
+                    <div class="market-text">
+                        <h3>No Gas Fees! <br>
+                            Period.</h3>
+                        <p>Thanks to the Internet Computer’s
+                            reverse gas model, Enoki pays for
+                            all your trading needs.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- market area end -->
+
+</main>
+
+<!-- footer strat -->
+<div class="footer-area pt-100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer-copy">
+                    <p><img src="img/f-icon.svg" alt=""> &copy; Enoki DEX, 2022</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="footer-img text-center">
+                    <video autoplay loop muted>
+                        <source type="video/webm" src="img/hero-gif.mp4">
+                    </video>
+                    <!-- <img src="img/hero-gif.gif" alt=""> -->
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-menu text-end">
+                    <ul>
+                        <li><a href="https://github.com/enoki-dex" target="_blank">GitHub</a></li>
+                        <li><a href="#">Documentation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer end -->
+
+<!-- JS here -->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/fontawesome.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
 </html>
