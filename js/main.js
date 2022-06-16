@@ -1,10 +1,10 @@
 (function ($) {
 	"use strict";
 
-	 $(window).on('load', function(){
-        // Prealoder
-        $("#preloader").delay(500).fadeOut();
-    });
+	 // $(window).on('load', function(){
+   //      // Prealoder
+   //      $("#preloader").delay(500).fadeOut();
+   //  });
 	
 
     // Hamburger-menu

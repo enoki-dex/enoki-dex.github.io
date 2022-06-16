@@ -194,12 +194,12 @@ p {
 }
 
 .header-menu ul li:hover a {
-    color: #e6ac95;
+    text-decoration: underline;
 }
 
 .header-menu ul li a img {
     width: 17px;
-    margin-right: 8px;
+    margin-right: 10px;
     position: relative;
     top: -1px;
 }
@@ -220,14 +220,18 @@ p {
     text-transform: uppercase;
     border-radius: 35px;
     letter-spacing: 2px;
+    transition: transform 1ms;
 }
 
 .button-style:hover {
     background: #333;
     color: #fff;
 }
+
 .button-style:active {
     transform: translateY(2px);
+    /*transition-duration: 10ms;*/
+    /*transition-timing-function: step-start;*/
 }
 
 
@@ -302,7 +306,7 @@ p {
 .brand-img a {
     width: 70px;
     position: absolute;
-    top: 116px;
+    top: 220px;
     right: -31px;
 }
 
@@ -458,6 +462,10 @@ p {
     text-align: center;
 }
 
+.work-img img {
+    max-height: 335px;
+}
+
 .work-text h4 {
     font-size: 24px;
     line-height: 1;
@@ -542,7 +550,7 @@ p {
     color: #000;
     opacity: .6;
     margin-left: 30px;
-    transition: .3;
+    transition: .3s;
 }
 
 .footer-menu ul li:hover a {
