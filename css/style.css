@@ -161,7 +161,7 @@ p {
     font-weight: 600;
     background: #fff5f1;
     line-height: 1;
-    padding: 15px 35px;
+    padding: 12px 27px;
     border-radius: 35px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -169,7 +169,7 @@ p {
 
 .header-left-btn a img {
     width: 35px;
-    margin-right: 20px;
+    margin-right: 8px;
     position: relative;
     top: -1.5px;
 }
@@ -214,9 +214,9 @@ p {
     background: #000;
     display: inline-block;
     line-height: 1;
-    padding: 16px 36px;
+    padding: 12px 36px;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     border-radius: 35px;
     letter-spacing: 2px;
@@ -290,6 +290,7 @@ p {
 
 .hero-top-img {
     position: absolute;
+    top: 10px;
 }
 
 .her-top-box {
@@ -307,7 +308,7 @@ p {
     width: 70px;
     position: absolute;
     top: 220px;
-    right: -31px;
+    right: -34px;
 }
 
 .brand-img a img {
@@ -322,7 +323,7 @@ p {
 }
 
 .brand-img a.brand-icon {
-    left: 13px;
+    left: 11px;
     right: auto;
 }
 

@@ -504,6 +504,10 @@
         width: 136px;
     }
 
+    .hero-top-img {
+        top: 6px;
+    }
+
     .hero-top-img img {
         width: 110px;
     }
