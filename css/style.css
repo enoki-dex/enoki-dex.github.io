@@ -587,7 +587,8 @@ p {
     right: 15px;
     display: none;
     z-index: 999;
-    top: 44%;
+    /*top: 44%;*/
+    top: 62%;
     transform: translateY(-50%);
 }
 
@@ -619,12 +620,22 @@ p {
 }
 
 /* sticky active */
-.header-area {
+.header-div {
     position: fixed;
     left: 0;
     right: 0;
     z-index: 999;
     background: #fff;
+}
+
+.banner-top {
+    background: rgb(219,151,124);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 0;
 }
 
 
